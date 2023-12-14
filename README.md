@@ -14,10 +14,12 @@ Count the non-zero singular values to determine the rank
 ### Step 4: 
 Print the rank of the matrix
 ## Program:
+``````
 import numpy as np
 A=[[5,-3,-10],[2,2,-3],[-3,-1,5]]
 B=np.linalg.matrix_rank(A)
 print(B)
+``````
 ## Output:
 ![Alt text](<Screenshot 2023-12-14 103708.png>)
 ## Result:
